@@ -1,0 +1,36 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css" />
+	
+</head>
+<body>
+	<div id="viewerButtonArea">
+		<button onclick="rotate(-1)">Rotate Left</button>
+		<button onclick="rotate(1)">Rotate Right</button>
+		<button onclick="zoom(-1)">Zoom Out</button>
+		<button onclick="zoom(1)">Zoom In</button>
+		<button onclick="scaleImages('vertical')">Fit Height</button>
+		<button onclick="scaleImages('horizontal')">Fit Width</button>
+	</div>
+	<div id="imageArea" style="width: 688px; height: 494px; border: 1px solid #666;">
+		<div>
+			<img id="imageScan1" style="display: none" src="image-1.jpg">
+		</div>
+		<div>
+			<img id="imageScan2" style="display: none" src="image-2.jpg">
+		</div>
+		<div>
+			<img id="imageScan3" style="display: none" src="image-3.jpg">
+		</div>
+	</div>
+
+	<div id="pagingButtonArea" createdobjectforcustomproperties="true">
+		<span id="btn1" class="imagePageButton" onclick="showImage(1)">1</span>
+		<span id="btn2" class="imagePageButton" onclick="showImage(2)">2</span>
+		<span id="btn3" class="imagePageButton" onclick="showImage(3)">3</span>
+	</div>
+	
+	<script src="script/image-viewer.js"></script>
+</body>
+
+</html>

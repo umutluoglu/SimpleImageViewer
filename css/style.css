@@ -1,0 +1,53 @@
+#imageArea {
+	
+	height:660px;
+	width:660px;
+	overflow:hidden;
+	border: 1px solid #444444;
+	overflow-y:auto; overflow-x:auto;
+}
+
+img {
+	position: relative;
+}
+
+#pagingButtonArea {
+	margin: 8px 0px 8px 0px;
+}
+
+#viewerButtonArea {
+	margin-bottom: 5px;
+}
+
+.imagePageButton {
+	font-size: 14px;
+    font-family: Arial;
+    padding: 3px 5px 3px 5px;
+    background: #EEE;
+	border: 1px solid #CCC;
+	cursor: pointer;
+}
+
+.rotate90 {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.rotate180 {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.rotate270 {
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
